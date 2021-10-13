@@ -5,30 +5,46 @@
     Created: October 13, 2021
     ///////////////////////////////////////////////*/
     
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
     body {
         background-color: lightgray;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: flex-start; */
     }
 
     body>* {
         margin: 20px;
+        padding: 20px;
     }
 
     #top_container {
         background-color: skyblue;
-        height: 250px;
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 
     #middle_container {
         background-color: peachpuff;
-        height: 250px;
+        height: 200px;
     }
 
     #bottom_container {
         background-color: whitesmoke;
-        height: 250px;
+        height: 200px;
     }
 
     h1 {
         text-align: center;
-        /* font-style: bold; */
+        font-size: 500%;
+        color: darkslategray;
     }
+
+    img.octocat {
+        height: 200px;
+    }    
