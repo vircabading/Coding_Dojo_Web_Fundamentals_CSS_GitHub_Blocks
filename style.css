@@ -5,46 +5,56 @@
     Created: October 13, 2021
     ///////////////////////////////////////////////*/
     
-    * {
-        font-family: Arial, Helvetica, sans-serif;
-    }
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+}
+
+body {
+    background-color: lightgray;
+}
+
+body>* {
+    margin: 20px;
+    padding: 20px;
+}
+
+#top_container {
+    background-color: skyblue;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#middle_container {
+    background-color: peachpuff;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#bottom_container {
+    background-color: whitesmoke;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 500%;
+    /* color: darkslategray; */
+}
+
+img.octocat {
+    height: 200px;
+}    
+
+.disclaimer {
+    text-align: center;
+    font-size: 200%
     
-    body {
-        background-color: lightgray;
-        /* display: flex;
-        flex-direction: column;
-        justify-content: flex-start; */
-    }
-
-    body>* {
-        margin: 20px;
-        padding: 20px;
-    }
-
-    #top_container {
-        background-color: skyblue;
-        height: 200px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    #middle_container {
-        background-color: peachpuff;
-        height: 200px;
-    }
-
-    #bottom_container {
-        background-color: whitesmoke;
-        height: 200px;
-    }
-
-    h1 {
-        text-align: center;
-        font-size: 500%;
-        color: darkslategray;
-    }
-
-    img.octocat {
-        height: 200px;
-    }    
+}
