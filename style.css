@@ -6,7 +6,26 @@
     ///////////////////////////////////////////////*/
     
     body {
-        background-color: grey;
+        background-color: lightgray;
+    }
+
+    body>* {
+        margin: 20px;
+    }
+
+    #top_container {
+        background-color: skyblue;
+        height: 250px;
+    }
+
+    #middle_container {
+        background-color: peachpuff;
+        height: 250px;
+    }
+
+    #bottom_container {
+        background-color: whitesmoke;
+        height: 250px;
     }
 
     h1 {
